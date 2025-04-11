@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-  <title>Mi primera web con JavaScript</title>
+  <meta charset="UTF-8">
+  <title>Contador de Clics</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Hola👋</h1>
-  <button onclick="mostrarSaludo()">Haz clic aquí</button>
+  <div class="container">
+    <h1>Contador de Clics</h1>
+    <p id="contador">0</p>
+    <button id="boton">Haz clic aquí</button>
+  </div>
 
-  <script>
-    function mostrarSaludo() {
-      alert("No voltees lepeper esta atras");
-    }
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>
